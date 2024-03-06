@@ -1,0 +1,103 @@
+.header-div {
+    display: flex;
+    justify-content: space-between;
+    background-color: #393E46;
+    height: 100%;
+    width: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: #222831;
+}
+
+.botao-header {
+    display: flex;
+    border: solid 1px #00ADB5;
+    border-radius: 20px;
+    color: #00ADB5;
+    background-color: #393E46;
+    transition: background-color 0.5s ease, color 0.5 ease, transform 0.5s ease;
+}
+
+.botao-header:hover {
+    background-color: #00ADB5;
+    color: #393E46;
+    transform: scale(1.2);
+}
+
+.div-botao-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header, footer {
+    height: 15%;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    color: #222831;
+    background-color: #393E46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-txt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+.footer-div{
+    font-weight: bold;
+    font-size: 20px;
+}
+.titulo-artigo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.artigo {
+    padding: 20px;
+}
+
+.texto-artigo{
+    padding: 20px;
+}
+
+body, html {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #222831;
+    color: #EEEEEE;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
